@@ -1,0 +1,87 @@
+.package
+{
+    text-align: center;
+}
+.package-btn a
+{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.pricing-btn a
+{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+.pricing-btn a,
+.package-btn a
+{
+    margin-top:7%;
+    margin-bottom: 7%;
+    height:40px;
+    width:160px;
+}
+.pricing-btn
+{
+    text-align: left;
+    padding-left: 0%;
+}
+.package-btn
+{
+    text-align: right;
+    padding-right: 0%;
+}
+.pricing-btn a
+{
+    background-color: #e8e8e8;
+    transition: 0.5s box-shadow linear;
+    -moz-transition: 0.5s box-shadow linear;
+    -o-transition: 0.5s box-shadow linear;
+    -webkit-transition: 0.5s box-shadow linear;
+}
+.pricing-btn a:hover
+{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 61, 61, 0.188);
+}
+.package .cards .single-card
+{
+    border-radius: 30px;
+    box-shadow: 0 0 12px 0 rgba(0, 155, 219, 0.12);
+    background-color: #ffffff;
+    padding:7% 6%;
+    margin-top:4%;
+}
+.package .cards .single-card h4
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.package .cards .single-card img
+{
+    width:160px;
+    height:130px;
+    margin-bottom:10%;
+    margin-top:10%;
+}
+.package .cards .single-card p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6d6d;
+}
+.package .cards .single-card p i
+{
+    color:#0091d5;
+    padding-left:2%;
+}

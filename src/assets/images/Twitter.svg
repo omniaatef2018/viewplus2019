@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Twitter_Logo_WhiteOnBlue" width="32" height="32" viewBox="0 0 32 32">
+    <defs>
+        <style>
+            .cls-1{fill:#1da1f2}.cls-2{fill:#fff}.cls-3{fill:none}
+        </style>
+    </defs>
+    <g id="Dark_Blue" data-name="Dark Blue">
+        <path id="Rectangle_632" d="M0 0h32v32H0z" class="cls-1" data-name="Rectangle 632"/>
+    </g>
+    <g id="Logo_FIXED" data-name="Logo — FIXED">
+        <path id="Path_3220" d="M81.29 114.7a11.6 11.6 0 0 0 11.675-11.675c0-.178 0-.354-.012-.53A8.349 8.349 0 0 0 95 100.372a8.19 8.19 0 0 1-2.357.646 4.118 4.118 0 0 0 1.8-2.27 8.223 8.223 0 0 1-2.606 1 4.107 4.107 0 0 0-6.993 3.742 11.65 11.65 0 0 1-8.452-4.29 4.106 4.106 0 0 0 1.27 5.478 4.073 4.073 0 0 1-1.862-.514v.052a4.1 4.1 0 0 0 3.292 4.022 4.1 4.1 0 0 1-1.853.07 4.108 4.108 0 0 0 3.834 2.85 8.234 8.234 0 0 1-5.1 1.76 8.352 8.352 0 0 1-.977-.059 11.617 11.617 0 0 0 6.29 1.84" class="cls-2" data-name="Path 3220" transform="translate(-69 -90.574)"/>
+        <path id="Rectangle_633" d="M0 0h32v32H0z" class="cls-3" data-name="Rectangle 633"/>
+    </g>
+</svg>

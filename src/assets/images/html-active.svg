@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_875" data-name="Rectangle 875" width="24" height="24" transform="translate(-1121 2509)" fill="#2196f3"/>
+    </clipPath>
+  </defs>
+  <g id="html-active" transform="translate(1121 -2509)" clip-path="url(#clip-path)">
+    <path id="logo-html5" d="M3.429,1.714,5.3,23.315l8.4,2.4,8.424-2.4L24,1.714Zm16.5,7.071H10.071l.214,2.732h9.429l-.723,8.11-5.277,1.505-5.287-1.5-.362-4.152H10.65l.183,2.1,2.88.792,2.862-.8.3-3.437H7.928L7.254,6.129h12.9Z" transform="translate(-1122.714 2507.286)" fill="#2196f3"/>
+  </g>
+</svg>

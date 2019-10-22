@@ -1,0 +1,241 @@
+.top-section
+{
+    background-color: #714091;
+    min-height:600px;
+    position: relative;
+    padding-bottom:4%;
+}
+.top-section h3
+{
+    padding-top:20%;
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+.top-section p
+{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.81;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+.top-section a
+{
+    border-radius: 12px;
+    background-color: #ffffff;
+    color:#000;
+    padding-right:7%;
+    padding-left:7%;
+    margin-top:2%;
+}
+.visit-btn
+{
+    transition:0.5s box-shadow;
+    -o-transition:0.5s box-shadow;
+    -moz-transition:0.5s box-shadow;
+    -webkit-transition:0.5s box-shadow;
+}
+.visit-btn:hover
+{
+    box-shadow: 5px 4px 4px #e0e0e0;
+}
+.img-project
+{
+    position: absolute;
+    top:30%;
+    left:0%;
+    height:618px;
+    width:100%;
+}
+.middle-section
+{
+    padding-top:12%;
+    text-align: center;
+    width:70%;
+    margin:auto;
+    display: block
+}
+.middle-section h3,
+.tech-tools h3
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    margin-top: 7%;
+}
+.middle-section p{
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.54;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6d6d6d;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.tech-tools 
+{
+    padding-top:5%;
+    padding-bottom:5%;
+    text-align: center
+}
+.tech-tools img
+{
+    display: block;
+    margin:auto
+}
+.tech-tools .tech-single
+{
+    margin-top:4%;
+}
+.tech-tools .tech-single p
+{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top:5%;
+}
+.search-sec
+{
+    background-image: url(../../../assets/images/search-bg.svg);
+    background-size:cover;
+    min-height: 459px;
+    padding-top: 4%;
+    padding-bottom: 3%;
+}
+.search-sec .left-sec 
+{
+    padding-top:4%;
+}
+.search-sec .left-sec h3
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+    padding-top:4%;
+}
+.search-sec .left-sec p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.88;
+    letter-spacing: normal;
+    text-align: right;
+    color: #ffffff;
+}
+.search-sec .right-sec img,
+.laptop-sec .left-sec img
+{
+    width:100%;
+    height:400px;
+}
+.laptop-sec
+{
+    padding-top:5%;
+    padding-bottom:5%;
+}
+.laptop-sec .right-sec h3
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+    padding-top:5%;
+}
+.laptop-sec .right-sec p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.88;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+}
+/* start ready */
+.ready 
+{
+    min-height:400px;
+    background-image: url(../../../assets/images/ready.svg);
+    background-size:cover;
+    text-align: center;
+}
+.ready h3
+{
+    padding-top:123px;
+    padding-bottom:2%;
+}
+.ready a
+{
+    padding-right:6%;
+    padding-left:6%;
+}
+/* end ready */
+@media (max-width:767px)
+{
+    .img-project
+    {
+        position:initial;
+        height: 445px;
+    }
+    .laptop-sec
+    {
+        display: flex;
+        -webkit-display:flex;
+    }
+    .laptop-sec .left-sec img
+    {
+        order:1;
+        -webkit-order:1;
+        margin-top:3%;
+    }
+    .laptop-sec .right-sec 
+    {
+        order:2;
+        -webkit-order:2;
+    }
+    .project-details p
+    {
+        font-size:14px;
+    }
+    .project-details  h4,
+    .project-details  h3,
+    .laptop-sec .right-sec h3,
+    .search-sec .left-sec h3
+    {
+        font-size:24px;
+    }
+}

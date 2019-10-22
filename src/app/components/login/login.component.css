@@ -1,0 +1,342 @@
+.rtl .form-check-input
+{
+    margin-right:0%;
+}
+label
+{
+    opacity:0;
+    transition: 0.5s opacity ease-in-out;
+    -webkit-transition: 0.5s opacity ease-in-out;
+    color:#0068b3;
+}
+.left-data
+{
+    position: relative;
+}
+
+@keyframes login-right-cloud{
+    0%{
+        transform:  translateX(50%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(70%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-webkit-keyframes login-right-cloud{
+    0%{
+        transform:  translateX(50%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(70%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-moz-keyframes login-right-cloud{
+    0%{
+        transform:  translateX(50%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(70%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-o-keyframes login-right-cloud{
+    0%{
+        transform:  translateX(50%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(70%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@keyframes login-left-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(50%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-webkit-keyframes login-left-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(50%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-moz-keyframes login-left-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(50%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-o-keyframes login-top-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(50%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(200%);
+        opacity: 0;
+        }
+}
+@keyframes login-top-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(100%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(200%);
+        opacity: 0;
+        }
+}
+@-webkit-keyframes login-top-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(100%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(200%);
+        opacity: 0;
+        }
+}
+@-moz-keyframes login-top-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(100%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(200%);
+        opacity: 0;
+        }
+}
+@-o-keyframes login-top-cloud{
+    0%{
+        transform:  translateX(0%);
+        opacity: 0;
+        }
+    47%{
+        transform: translateX(100%);
+        opacity: 1;
+        }
+    100%{
+        transform: translateX(200%);
+        opacity: 0;
+        }
+}
+.top-cloud
+{
+    position: absolute;
+    width:206px!important;
+    height:54px;
+    top:0%;
+    left:0%;
+    z-index: 99999;
+    animation: login-top-cloud 7s infinite 0s linear;
+}
+.left-data .right-cloud
+{
+    position: absolute;
+    width:206px!important;
+    height:54px;
+    top:50%;
+    left: 50%;
+    z-index: 99999;
+    animation: login-right-cloud 4s infinite 0s linear;
+}
+.left-data .left-cloud
+{
+    position: absolute;
+    width:206px!important;
+    height:54px;
+    top:25%;
+    left: 00%;
+    z-index: 99999;
+    animation: login-left-cloud 4s infinite 0s linear;
+}
+.login-footer
+{
+    text-align: center;
+    font-size:14px;
+    color:#000;
+}
+.login-page .left-data img
+{
+    width:100%;
+}
+.login-page
+{
+    padding-top:4%;
+}
+.top-image
+{
+    width:150px;
+    height:90px;
+    display: block;
+    margin: auto;
+    margin-bottom:14%;
+}
+.login-page .login-btn
+{
+    padding-right:15%;
+    padding-left:15%;
+    border-radius: 12px;
+}
+.login-page .register-btn
+{
+    border-radius: 12px;
+    background-color: #e8e8e8;
+    color:#6d6d6d;
+    padding-right:15%;
+    padding-left:15%;
+}
+.login-page form
+{
+    padding-top:5%;
+    margin-bottom:20%;
+}
+.forget-passowrd
+{
+    text-align: left;
+}
+.forget-passowrd a
+{
+    color:#2a2a2a;
+    transition: color 0.5s;
+    -o-transition:  color 0.5s;
+    -webkit-transition:  color 0.5s;
+    -moz-transition: color 0.5s;
+}
+.forget-passowrd a:hover
+{
+    color:red;
+    text-decoration: none;
+}
+.firstinput
+{
+    margin-top:0%;
+}
+.form-check input
+{
+    margin-top:1%;
+}
+.form-check label
+{
+    opacity:1;
+}
+form .form-group
+{
+    margin-bottom:6%;
+}
+form input
+{
+    border:none;
+    border-bottom:1px solid #002e7f;
+    border-radius:0px;
+    padding-right:0px;
+    background-color:transparent;
+}
+form input:focus
+{
+    box-shadow: none;
+}
+.bottom-btn
+{
+    margin-top:4%;
+}
+@media (max-width:1199px)
+{
+    .login-page
+    {
+        display: flex;
+        -webkit-display: flex;
+        background-image: none;
+    }
+    .login-page .top-image
+    {
+        margin-top:4%;
+    }
+    .login-page .right-data
+    {
+        order:2;
+        -webkit-order:2;
+    }
+    .login-page .left-data
+    {
+        order:1;
+        -webkit-order:1;
+    }
+    .login-page .left-data img
+    {
+    display: none;
+    }
+}
+@media (max-width:576px)
+{
+    .login-btn
+    {
+        margin-bottom:3%;
+    }
+}
+app-layout
+{
+    display: none;
+}

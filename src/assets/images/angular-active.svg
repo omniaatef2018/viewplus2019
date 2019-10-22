@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_873" data-name="Rectangle 873" width="24" height="24" transform="translate(-1121 2421)" fill="#dd0330"/>
+    </clipPath>
+  </defs>
+  <g id="angular-active" transform="translate(1121 -2421)" clip-path="url(#clip-path)">
+    <g id="logo-angular" transform="translate(-1122.714 2419.286)">
+      <path id="Path_11855" data-name="Path 11855" d="M11.441,13.714h4.545L13.714,8.927Z" fill="#dd0330"/>
+      <path id="Path_11856" data-name="Path 11856" d="M13.713,1.714,1.714,6,4.185,20.571l9.529,5.143,9.522-5.143L25.714,6Zm4.715,17.143-1.424-3h-6.58L9,18.857H6.857l6.857-15,6.857,15Z" fill="#dd0330"/>
+    </g>
+  </g>
+</svg>

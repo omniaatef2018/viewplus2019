@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_426" data-name="Rectangle 426" width="24" height="24" transform="translate(-1121 2597)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="kotline" transform="translate(1121 -2597)" clip-path="url(#clip-path)">
+    <g id="kotlin-2" transform="translate(-1121 2596.787)">
+      <path id="Path_3730" data-name="Path 3730" d="M12.05.213,0,12.885V24.213L12.032,12.16,24,.213H12.05Z" transform="translate(0 0)" fill="#aaa"/>
+      <path id="_Path_" data-name="&lt;Path&gt;" d="M0,14.773,12.032,2.72,24,14.773Z" transform="translate(0 9.44)" fill="#bcbcbc"/>
+      <path id="Path_3731" data-name="Path 3731" d="M0,.213H12.05L0,12.885Z" transform="translate(0 0)" fill="#bcbcbc"/>
+    </g>
+  </g>
+</svg>

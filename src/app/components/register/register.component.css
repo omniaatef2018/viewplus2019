@@ -1,0 +1,331 @@
+.register-page
+{
+    background-image: url(../../../assets/images/sign-bg.svg);
+    height:100%;
+    display: flex;
+    -webkit-display: flex;
+    background-repeat: no-repeat
+}
+label
+{
+    opacity:0;
+    transition: 0.5s opacity ease-in-out;
+    -webkit-transition: 0.5s opacity ease-in-out;
+    color:#0068b3;
+}
+.register-alert
+{
+    background-color:#d4edda;
+    color:#155724;
+    position: absolute;
+    top:2%;
+    right:3%;
+    padding:1% 2%;
+    display: none;
+}
+.register-alert .close
+{
+    left:0%;
+}
+.form-group
+{
+    margin-bottom: 6%
+}
+.form-check label,
+.personal-radio label,
+.company-radio label
+{
+    opacity: 1;
+}
+.form-check input
+{
+    z-index:9999;
+}
+.left-data p
+{
+    text-align: center;
+    display: block;
+    padding-top:3%;
+}
+.register-page .left-data
+{
+    margin-top:8%;
+}
+.register-page .left-data img
+{
+    width:100%;
+    margin-top: 4%;
+}
+.register-page .form-check input
+{
+    margin-right:0%;
+}
+.last-p
+{
+    display: none;
+}
+.top-image
+{
+    width:150px;
+    height:90px;
+    display: block;
+    margin: auto;
+    margin-bottom:6%;
+    margin-top:8%;
+}
+.register-page .register-logo img
+{
+    width:150px;
+    height:90px;
+    display: block;
+    margin: auto;
+    margin-bottom:2%;
+}
+.register-page .register-btn
+{
+    padding-right:15%;
+    padding-left:15%;
+    border-radius: 12px;
+    color:#fff;
+    margin-bottom:4%;
+}
+.register-page .login-btn
+{
+    border-radius: 12px;
+    background-color: #e8e8e8;
+    color:#6d6d6d;
+    padding-right:15%;
+    padding-left:15%;
+    margin-bottom:4%;
+}
+.personal-radio
+{
+    display:block;
+    text-align: left;
+    margin-top:4%;
+}
+.company-radio
+{
+    display:block;
+    text-align: right;
+    margin-top:4%;
+}
+.personal-radio label,
+.company-radio label
+{
+    padding-right:2%;
+    cursor: pointer;
+}
+.register-page form input
+{
+    border:none;
+    border-bottom:1px solid #002e7f;
+    border-radius:0px;
+    padding-right:0%;
+}
+.register-page form  .form-check
+{
+    margin-top:4%;
+}
+.register-page form  .form-check input
+{
+    margin-top:1%;
+}
+.register-page form .first-input
+{
+    margin-top:0%;
+}
+.register-page form input:focus
+{
+    box-shadow:none;
+}
+.register-page form select
+{
+    height:40px;
+    border:none;
+    border-bottom:1px solid #002e7f;
+    margin-top:8%;
+}
+.company-form
+{
+    display: none;
+    margin-bottom:5%;
+}
+.bottom-btn 
+{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.register-page .left-data .cloud1
+{
+    float: left;
+    opacity:0.5;
+    transition: 1s opacity ease-in-out;
+    -webkit-transition: 1s opacity ease-in-out;
+    -moz-transition: 1s opacity ease-in-out;
+    -o-transition: 1s opacity ease-in-out;
+}
+.register-page .left-data .cloud2
+{
+    opacity:0;
+    float: left;
+    animation: cloudanimation1 5s infinite 1s linear;
+    -webkit-animation: cloudanimation1 5s infinite 1s linear;
+}
+.register-page .left-data .cloud1
+{
+    width:50%;
+    position: relative;
+    animation: cloudanimation1 5s infinite 0s linear;
+    -webkit-animation: cloudanimation1 5s infinite 0s linear;
+}
+.register-page .left-data .cloud2
+{
+    width:50%;
+    position: relative;
+}
+@keyframes cloudanimation1{
+    0%{
+        transform:translateX(0%);
+        opacity: 0;
+        }
+        50%
+        {
+            opacity: 1;
+        }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-webkit-keyframes cloudanimation1{
+    0%
+    {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%{
+        transform: translateX(100%);
+        opacity: 0;
+        }
+}
+@-moz-keyframes cloudanimation1{
+    0%{
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+@-o-keyframes cloudanimation1{
+    0%
+    {
+        transform: translateX(0%);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+@media (min-width:1200px)  and (max-width:1400px)
+{
+    .register-page .left-data img
+    {
+        margin-top:15%;
+
+    }
+}
+@media (min-width:992px)  and (max-width:1200px)
+{
+    .register-page .left-data img
+    {
+        margin-top:43%;
+    }
+}
+@media (max-width:992px)
+{
+    .register-page .left-data img
+    {
+        margin-top: 67%;
+
+    }
+}
+@media (max-width:1199px)
+{
+    .register-page .left-data img
+    {
+        display: none;
+    }
+    .register-page
+    {
+        display: flex;
+        -webkit-display: flex;
+        background-image: none;
+    }
+    .register-page .top-image
+    {
+        margin-top:8%;
+    }
+    .register-page .right-data
+    {
+        order:2;
+        -webkit-order:2;
+        padding-right: 5%;
+        padding-left: 5%;
+    }
+    .register-page .left-data
+    {
+        order:1;
+        -webkit-order:1;
+    }
+    .register-page .left-data p
+    {
+        display: none;
+    }
+    .last-p
+    {
+        font-size:14px;
+        text-align: center;
+        color:#000;
+        display: block;
+    }
+}
+@media (max-width:576px)
+{
+    .login-btn
+    {
+        margin-bottom:3%;
+    }
+    .mobile-div
+    {
+        margin-bottom:12%;
+    }
+}
+@media (max-width:768px)
+{
+    .country-div
+    {
+        margin-bottom:3%;
+    }
+}
+app-layout
+{
+    display: none;
+}

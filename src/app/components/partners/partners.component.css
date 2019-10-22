@@ -1,0 +1,454 @@
+
+.modal .image-sec:hover .details-btn:hover
+{
+    opacity: 0.7;
+}
+.modal .image-sec .visit-btn:hover
+{
+    color:#000;
+}
+.package
+{
+    display: none
+}
+.custom-button
+{
+    color:#fff;
+    height: 41px;
+    border-radius: 12px;
+    font-size: 14px;
+    background: rgba(0,153,219,1);
+    background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+    background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+}
+.bottom-partn
+{
+    margin-bottom:11%;
+}
+.top-section h3
+{
+    padding-top:6%;
+}
+.partners
+{
+    text-align: center;
+}
+.partners-btn button
+{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.clients-btn button
+{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+}
+.partners-btn button,
+.clients-btn button
+{
+    margin-top:7%;
+    margin-bottom: 11%;
+    height:40px;
+    width:160px;
+}
+.partners-btn
+{
+    text-align: left;
+    padding-left: 0%;
+}
+.clients-btn
+{
+    text-align: right;
+    padding-right: 0%;
+}
+.clients-btn button:hover
+{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 61, 61, 0.188);
+}
+.bottom-partn .single-sec
+{
+    margin-top:3%;
+    transition: 0.5s box-shadow linear;
+    -moz-transition: 0.5s box-shadow linear;
+    -o-transition: 0.5s box-shadow linear;
+    -webkit-transition: 0.5s box-shadow linear;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.bottom-partn .single-sec:hover
+{
+    box-shadow: 0 3px 6px 0 rgba(0, 155, 219, 0.23);
+}
+.single-sec button,
+.single-sec button:active
+{
+    background-color:transparent;
+    border:none;
+    box-shadow:none;
+}
+.single-sec button:focus
+{
+    box-shadow:none;
+}
+.modal .image-sec
+{
+    padding-right:0%;
+    padding-left:0%;
+}
+.modal .right-image img
+{
+    width:100%;
+}
+.modal p
+{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.31;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6d6d;
+}
+.modal .modal-body
+{
+    border-radius:25px;
+}
+.line
+{
+    display: block;
+    margin:auto;
+    margin-bottom:3%;
+}
+.modal h3
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.bottom-div,
+.top-div
+{
+    animation-duration:2s;
+}
+.modal p,
+.modal .right-image
+{
+    padding-top:4%;
+}
+.modal .img-separate
+{
+    position: relative;
+    height: 555px;
+    margin-bottom: 4%;
+}
+.modal .image-sec:hover .overlay,
+.modal .image-sec:hover .details-btn,
+.modal .image-sec:hover .visit-btn
+{
+    opacity:1;
+}
+.modal .image-sec img
+{
+    height:555px;
+    width:100%;
+    position: relative;
+}
+.overlay
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0%;
+    right:0%;
+    background-color:rgba(0,0,0,0.7);
+    z-index:9999;
+    opacity: 0;
+    transition: 0.5s opacity linear;
+    -o-transition: 0.5s opacity linear;
+    -moz-transition: 0.5s opacity linear;
+    -webkit-transition: 0.5s opacity linear;
+}
+.modal .image-sec .details-btn
+{
+    position: absolute;
+    top:40%;
+    right:30%;
+    border-radius: 12px;
+    box-shadow: 7px 7px 6px 0 rgba(0, 155, 219, 0.12);
+    background-color: #bcbcbc;
+    padding-right:7%;
+    padding-left:7%;
+    color: #fff;
+    width: 206px;
+    z-index:99999;
+    opacity: 0;
+    transition: 0.5s opacity linear;
+    -o-transition: 0.5s opacity linear;
+    -moz-transition: 0.5s opacity linear;
+    -webkit-transition: 0.5s opacity linear;
+}
+.modal .image-sec .visit-btn
+{
+    position: absolute;
+    top:50%;
+    right:30%;
+    border-radius: 12px;
+    box-shadow: 7px 7px 6px 0 rgba(0, 155, 219, 0.12);
+    background-color: #bcbcbc;
+    padding-right:7%;
+    padding-left:7%;
+    color: #6d6d6d;
+    width: 206px;
+    z-index:99999;
+    opacity: 0;
+    transition: 0.5s opacity linear;
+    -o-transition: 0.5s opacity linear;
+    -moz-transition: 0.5s opacity linear;
+    -webkit-transition: 0.5s opacity linear;
+}
+/* /////////////////////////////////////////////////////////// */
+.clients
+{
+    display: none;
+}
+.top-section
+{
+    background-image: url(../../../assets/images/partners-bg.svg);
+    background-size:100% 100%;
+    min-height:150px;
+}
+.top-section h3
+{
+    padding-top:6%;
+}
+.partners
+{
+    text-align: center;
+}
+.clients-btn button
+{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.partners-btn button
+{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+.partners-btn button,
+.clients-btn button
+{
+    margin-top:7%;
+    margin-bottom: 0%;
+    height:40px;
+    width:160px;
+}
+.active-btn
+{
+    background: rgba(0,153,219,1);
+    background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+    background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+    color:#fff;
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    height:40px;
+    z-index:99999
+}
+.animationClass
+{
+    animation: buttonClick 0.8s forwards;
+}
+@keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+@-webkit-keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+@-moz-keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+@-o-keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+.partners-btn
+{
+    text-align: left;
+    padding-left: 0%;
+}
+.clients-btn
+{
+    text-align: right;
+    padding-right: 0%;
+}
+.partners-btn button
+{
+    background-color: #e8e8e8;
+    transition: 1s box-shadow linear;
+    -moz-transition: 1s box-shadow linear;
+    -o-transition: 1s box-shadow linear;
+    -webkit-transition: 1s box-shadow linear;
+}
+.partners-btn button:hover
+{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 61, 61, 0.188);
+}
+.clients-btn button
+{
+    background-color: #e8e8e8;
+    transition: 1s box-shadow linear;
+    -moz-transition: 1s box-shadow linear;
+    -o-transition:1s box-shadow linear;
+    -webkit-transition: 1s box-shadow linear;
+}
+.bottom-partn .single-sec
+{
+    margin-top:3%;
+    transition: 0.5s box-shadow linear;
+    -moz-transition: 0.5s box-shadow linear;
+    -o-transition: 0.5s box-shadow linear;
+    -webkit-transition: 0.5s box-shadow linear;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.bottom-partn .single-sec:hover img:focus,
+.bottom-partn .single-sec:hover button:focus
+{
+    box-shadow:none;
+    border:none;
+    outline:none;
+}
+.bottom-partn .single-sec:hover
+{
+    box-shadow: none;
+}
+.bottom-partn .single-sec:hover img
+{
+    transform: scale(1.2);
+}
+.bottom-partn .single-sec img
+{
+    transition: 1s transform;
+    -webkit-transition: 1s transform;
+    -moz-transition: 1s transform;
+    -o-transition: 1s transform;
+}
+#services-btn:focus,
+#package-btn:focus
+{
+    box-shadow:none;
+}
+@media (max-width:992px)
+{
+    .modal .image-sec img
+    {
+        margin-bottom: 6%;
+    }
+    .top-section
+    {
+        background-image: none;
+    }
+    .partners
+    {
+        padding-top:40px;
+    }
+}
+@media (max-width:576px)
+{
+    .modal .right-image img
+    {
+        width: 114px;
+        height: 117px;
+        display: block;
+        margin:auto;
+    }
+    .modal .image-sec img
+    {
+        margin-bottom:4%;
+    }
+}

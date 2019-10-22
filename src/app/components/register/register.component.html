@@ -1,0 +1,250 @@
+<app-layout></app-layout>
+<div class="rtl register-page">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xl-6 col-lg-8 col-sm-12 right-data mx-auto">
+        <a href=""><img src="../../../assets/images/sign-logo.png" class="top-image" alt=""></a>
+        <div class="row">
+          <div class="col">
+            <a class="btn login-btn col-sm-12" href="/login">
+              تسجيل دخول
+            </a>
+          </div>
+          <div class="col">
+            <a class="btn register-btn custom-btn col-sm-12" href="/register">
+              انشاء حساب
+            </a>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="row">
+            <div class="col personal-radio input-group">
+              <input type="radio" disabled checked>
+              <label for="">شخصي</label>
+            </div>
+            <div class="col company-radio input-group">
+              <input type="radio" disabled>
+              <label for="">شركات</label>
+            </div>
+          </div>
+        </div>
+        <form #personalform="ngForm" (ngSubmit)="signuppersonal(personalform)">
+          <!-- start personal form -->
+          <div class="personal-form">
+            <div class="form-group">
+              <label> الإسم بالكامل</label>
+              <input type="text" class="form-control first-input" placeholder=" الإسم بالكامل" [(ngModel)]="name"
+                name="name" required #fullname="ngModel">
+              <div class="alert alert-danger" *ngIf="fullname.invalid && fullname.touched">الإسم بالكامل مطلوب</div>
+            </div>
+            <div class="form-group">
+              <label> البريد الإلكتروني </label>
+              <input type="email" class="form-control" placeholder=" البريد الإلكتروني " [(ngModel)]="email"
+                name="email" email #personalemail="ngModel" required>
+              <div class="alert alert-danger" *ngIf="personalemail.errors?.required && personalemail.touched">البريد
+                الإلكتروني مطلوب</div>
+              <div class="alert alert-danger" *ngIf="personalemail.errors?.email && personalemail.touched">البريد
+                الإلكتروني خطأ</div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="country-div col-md-6 col-sm-12">
+                  <label>الدولة</label>
+                  <input type="text" id="myInput" class="form-control" placeholder=" الدولة " [(ngModel)]="country"
+                    name="country" country #personalcountry="ngModel" required>
+                  <div class="alert alert-danger" *ngIf="personalcountry.errors?.required && personalcountry.touched">
+                    الدولة مطلوبة
+                  </div>
+                </div>
+                <div class="city-div col-md-6 col-sm-12">
+                  <label>المدينة</label>
+                  <input type="text" id="city-personal" class="form-control" placeholder=" المدينة " [(ngModel)]="area"
+                    name="area" area #personalarea="ngModel" required>
+                  <div class="alert alert-danger" *ngIf="personalarea.errors?.required && personalarea.touched">
+                    الدولة مطلوبة
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-sm-12">
+                <div class="row">
+                  <label class="col-sm-9 "> رقم الجوال </label>
+                  <input type="number" class="mobile-div   col-sm-9 form-control" placeholder=" رقم الجوال " [(ngModel)]="mobile"
+                    name="mobile" required minlength="11" #mobilepersonal="ngModel">
+                  <input type="text" class="col-sm-3 postal-code form-control" placeholder=" كود البلد ">
+                  <div class="col-sm-9 alert alert-danger"
+                    *ngIf="mobilepersonal.errors?.required && mobilepersonal.touched">رقم
+                    الجوال مطلوب</div>
+                  <div class="alert alert-danger" *ngIf="mobilepersonal.errors?.minlength && mobilepersonal.touched">رقم
+                    الجوال غير صحيح</div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label>كلمة المرور </label>
+              <input type="password" class="form-control" placeholder=" كلمة المرور  " [(ngModel)]="passwordpersonal"
+                name="passwordpersonal" required minlength="6" #password="ngModel">
+              <div class="alert alert-danger" *ngIf="password.errors?.required && password.touched"> كلمة المرور مطلوبة
+              </div>
+            </div>
+            <div class="form-group">
+              <label> تأكيد كلمة المرور </label>
+              <input type="password" class="form-control" placeholder="  تأكيد كلمة المرور  " ngModel
+                name="confirmpassowrd" required #passwordconfirm="ngModel">
+              <div class="alert alert-danger" *ngIf="passwordconfirm.errors?.required && passwordconfirm.touched"> تأكيد
+                كلمة المرور مطلوبة</div>
+              <div class="alert alert-danger"
+                *ngIf=" passwordconfirm.value !== password.value && passwordconfirm.touched"> كلمة المرور غير متطابقة
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" ngModel name="confirmprivacy" required
+                    #confirmprivacy="ngModel">
+                  <label class="col-sm-12 form-check-label" for="exampleCheck1">
+                    أوافق على
+                    <a href="#">الشروط و الأحكام</a>
+                  </label>
+                </div>
+                <div class="alert alert-danger" *ngIf="confirmprivacy.invalid && confirmprivacy.touched"> يجب الموافقة
+                  على الشروط والأحكام </div>
+              </div>
+            </div>
+            <button type="submit" class="btn col-sm-12 btn btn-primary custom-btn bottom-btn" href="#"
+              [disabled]="personalform.invalid || passwordconfirm.value !== password.value" (click)="showSuccess()"> انشاء حساب </button>
+          </div>
+        </form>
+        <!-- end personal form -->
+        <!-- start company form -->
+        <form #companyform="ngForm" (ngSubmit)="signupcompany(companyform)">
+          <div class="company-form">
+            <div class="form-group">
+              <label> الإسم بالكامل </label>
+              <input type="text" class=" first-input form-control" placeholder=" الإسم بالكامل  "
+                [(ngModel)]="companyfullname" name="companyfullname" required #fullnamecompany="ngModel">
+              <div class="alert alert-danger" *ngIf="fullnamecompany.invalid && fullnamecompany.touched">الإسم بالكامل
+                مطلوب</div>
+            </div>
+            <div class="form-group">
+              <label> البريد الإلكتروني </label>
+              <input type="email" class="form-control" placeholder=" البريد الإلكتروني " [(ngModel)]="companyemail"
+                name="companyemail" required email #emailcompany="ngModel">
+              <div class="alert alert-danger" *ngIf="emailcompany.errors?.required && emailcompany.touched">البريد
+                الإلكتروني مطلوب</div>
+              <div class="alert alert-danger" *ngIf="emailcompany.touched && emailcompany.errors?.email">البريد
+                الإلكتروني خطأ</div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-6 col-sm-12">
+                  <label>الدولة</label>
+                  <input type="text" class="form-control" placeholder=" الدولة " [(ngModel)]="countrycompany"
+                    name="countrycompany" required #companycountry="ngModel" />
+                  <div class="alert alert-danger" *ngIf="companycountry.errors?.required && companycountry.touched">
+                    الدولة مطلوبة
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-12">
+                  <label>المدينة</label>
+                  <input type="text" class="form-control" placeholder=" المدينة " [(ngModel)]="companyareaname"
+                    name="companyareaname" required #companyarea="ngModel">
+                  <div class="alert alert-danger" *ngIf="companyarea.errors?.required && companyarea.touched">
+                    المدينة مطلوبة
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="row">
+                <div class="col-md-9 col-sm-12">
+                  <label> رقم الجوال </label>
+                  <input type="number" class="form-control" placeholder=" رقم الجوال   " [(ngModel)]="companymobile"
+                    name="companymobile" required minlength="11" #mobilecompany="ngModel">
+                  <div class="alert alert-danger" *ngIf="mobilecompany.errors?.required && mobilecompany.touched">رقم
+                    الجوال مطلوب</div>
+                  <div class="alert alert-danger" *ngIf="mobilecompany.errors?.minlength && mobilecompany.touched">رقم
+                    الجوال غير صحيح</div>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                  <label> كود البلد </label>
+                  <input type="text" class="postal-code form-control" placeholder=" كود البلد ">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label> كلمة المرور </label>
+              <input type="password" class="form-control" placeholder=" كلمة المرور  " [(ngModel)]="companypassword"
+                name="companypassword" required #passwordcompany="ngModel">
+              <div class="alert alert-danger" *ngIf="passwordcompany.invalid && passwordcompany.touched">كلمة المرور
+                مطلوبة</div>
+            </div>
+            <div class="form-group">
+              <label> تأكيد كلمة المرور </label>
+              <input type="password" class="form-control" placeholder="  تأكيد كلمة المرور  " ngModel
+                name="companyconfirmpassword" required #passwordconfirmcompany="ngModel">
+              <div class="alert alert-danger" *ngIf="passwordconfirmcompany.invalid && passwordconfirmcompany.touched">
+                تأكيد كلمة المرور مطلوبة</div>
+              <div class="alert alert-danger"
+                *ngIf=" passwordconfirmcompany.value !== passwordcompany.value && passwordconfirmcompany.touched"> كلمة
+                المرور غير متطابقة </div>
+            </div>
+            <div class="form-group">
+              <label> إسم الشركة </label>
+              <input type="text" class="form-control" placeholder="إسم الشركة" [(ngModel)]="namecompany"
+                name="namecompany" required #companyname="ngModel">
+              <div class="alert alert-danger" *ngIf="companyname.invalid && companyname.touched">إسم الشركة مطلوب</div>
+            </div>
+            <div class="form-group">
+              <label> عدد الموظفين</label>
+              <input type="text" class="form-control" placeholder=" عدد الموظفين " [(ngModel)]="companyempolyee"
+                name="companyempolyee" required #employeenumber="ngModel">
+              <div class="alert alert-danger" *ngIf="employeenumber.invalid && employeenumber.touched">عدد الموظفين
+                مطلوب</div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12">
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" ngModel name="companyconfirmprivacy" required
+                    #privacycompany="ngModel">
+                  <label class="col-sm-12 form-check-label" for="exampleCheck1">
+                    أوافق على
+                    <a href="#">الشروط و الأحكام</a>
+                  </label>
+                </div>
+                <div class="alert alert-danger" *ngIf="privacycompany.invalid && privacycompany.touched">عدد الموظفين
+                  مطلوب</div>
+              </div>
+            </div>
+            <button type="submit" class="col-sm-12 btn btn-primary custom-btn bottom-btn"
+              [disabled]="companyform.invalid || passwordconfirmcompany.value !== passwordcompany.value"> انشاء حساب
+            </button>
+          </div>
+          <!-- end company form -->
+        </form>
+      </div>
+      <div class="col-md-6 col-sm-12 left-data">
+        <div class="row">
+          <div class="col-6">
+            <img src="../../../assets/images/cloud.svg" class="cloud1" alt="">
+          </div>
+          <div class="col-6">
+            <img src="../../../assets/images/cloud1.svg" class="cloud2" alt="">
+          </div>
+        </div>
+        <img src="../../../assets/images/register.svg" alt="">
+        <p> © جميع الحقوق محفوظة 2019 <a href="">View Plus</a> </p>
+      </div>
+    </div>
+    <p class="last-p"> © جميع الحقوق محفوظة 2019 <a href="">View Plus</a> </p>
+  </div>
+</div>
+  <!-- alert -->
+  <div class="register-alert alert alert-warning alert-dismissible fade show" role="alert">
+    <p>لقد تم التسجيل بنجاح</p> 
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <!-- alert -->

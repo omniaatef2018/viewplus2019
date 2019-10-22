@@ -1,0 +1,432 @@
+.profile-bg
+{
+    background-image: url(../../../assets/images/profile-bg.svg);
+    background-size:100% 100%;
+    height: 497px;
+    background-color:#0085cb;
+    padding-top:4%;
+}
+#exampleModa2 input
+{
+    border: none;
+    border-radius: 0px;
+    height: 40px;
+    border-bottom: 1px solid #08c;
+    text-align: center;
+}
+.social-info input:focus,
+input:focus
+{
+    box-shadow:none;
+}
+.modal button
+{
+    background-color:transparent;
+}
+.modal .modal-header h5
+{
+    color: #0094d7;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    line-height: 57px;
+    font-weight: bold;
+    padding-right:4%;
+}
+#exampleModa2 .card
+{
+    border:none;
+}
+#exampleModa2 button:active
+{
+    background-color:transparent;
+    box-shadow:none;
+}
+#exampleModa2 .image-section
+{
+    position: relative;
+}
+#exampleModa2 .image-section:hover span
+{
+    opacity: 1;
+}
+.add-social-btn:focus
+{
+    box-shadow: none
+}
+#exampleModa2 .image-section span
+{
+    position: absolute;
+    top: 100%;
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+    padding: 10% 35%;
+    border-radius: 5px;
+    right: 1%;
+    z-index:9999;
+    opacity: 0;
+    transition:0.5s ease-in-out opacity;
+    -webkit-transition:0.5s ease-in-out opacity;
+    -o-transition:0.5s ease-in-out opacity;
+    -moz-transition:0.5s ease-in-out opacity;
+}
+#exampleModa2 .image-section::after
+{
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 100px solid red;
+}
+.single-collapse
+{
+    margin-bottom: 2%;
+}
+.modal .close
+{
+    display: inline;
+    margin: inherit;
+}
+.modal .close span
+{
+    color:#0085cb;
+    opacity: 1;
+}
+.add-social-btn
+{
+    background: transparent;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+    color: #0094d7;
+    height: 41px;
+    border-radius: 12px;
+    margin-bottom: 3%;
+    font-weight: bold;
+    border: 1px solid #0094d7;
+}
+.company-info h4
+{
+    cursor: pointer;
+}
+.blue-right
+{
+    display: none!important;
+}
+.profile-bg form
+{
+    background-image:url(../../../assets/images/camera.png);
+    background-size: 100% 100%;
+    height:148px;
+    width:148px;
+    display: block;
+    border-radius:50%;
+    margin:auto;
+    border: 1px solid #fff;
+    cursor: pointer;
+    margin-bottom:2%;
+}
+.profile-bg p
+{
+    color:#fff;
+    text-align: center;
+}
+.links-profile .profile-btn button
+{
+    text-align: left;
+    display: inline-block;
+    height:40px;
+    margin-top:-60px;
+    background-color:#fff;
+    color:#009bdb;
+}
+.personal-info-sec input,
+.project-info-sec input
+{
+    margin-bottom: 3%;
+}
+.personal-info-sec .line,
+.project-info-sec .line
+{
+    margin-bottom:4%;
+}
+.project-info-sec
+{
+    display: none;
+}
+.links-profile .info-btn button
+{
+    text-align:right;
+    display: inline-block;
+    margin-top:-70px;
+    color:#fff
+}
+.personal-info,
+.company-info,
+.change-passowrd,
+.social-info
+{
+    margin-bottom:4%;
+    margin-top:4%;
+}
+.personal-info .line,
+.company-info .line,
+.change-passowrd .line,
+.social-info .line
+{
+    margin-top:1%;
+    margin-bottom:3%;
+}
+.personal-info input,
+.company-info input,
+.change-passowrd input,
+.social-info input,
+.add-email input,
+.personal-info select
+{
+    border:none;
+    border-radius:0px;
+    height:40px;
+    border-bottom:1px solid #08c;
+    margin-bottom:8%;
+}
+.fa-minus-circle
+{
+    display: none;
+}
+.personal-info h4,
+.company-info h4,
+.change-passowrd h4,
+.social-info h4,
+.add-email h4
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+}
+.add-email h4,
+.company-info h4
+{
+    cursor: pointer;
+    display: inline-block;
+    padding-right:0.5%;
+}
+.add-email img,
+.company-info img
+{
+    display: block
+}
+.personal-info-sec
+{
+    padding-bottom: 5%;
+}
+.change-passowrd p
+{
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.42;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+    float: right;
+}
+.change-passowrd button
+{
+    padding-right: 6%;
+    padding-left: 6%;
+    float: left;
+}
+.social-info img:not(.line)
+{
+    width:60px;
+    height:32px;
+}
+.modal button
+{
+    display: block;
+    margin: auto;
+    padding-right: 5%;
+    padding-left: 5%;
+    border: none;
+}
+.links-profile .profile-btn
+{
+    text-align: left
+}
+
+/* ////////////////////////////////////////////// */
+.profile-bg
+{
+background-image: url(../../../assets/images/profile-bg.svg);
+background-size:100% 100%;
+height: 390px;
+background-color:#0085cb;
+padding-top:4%;
+}
+.profile-bg form
+{
+background-image:url(../../../assets/images/camera.png);
+background-size: 100% 100%;
+height:148px;
+width:148px;
+display: block;
+border-radius:50%;
+margin:auto;
+border: 1px solid #fff;
+cursor: pointer;
+margin-bottom:2%;
+}
+.profile-bg form .dz-message
+{
+display: none!important;
+}
+.profile-bg p
+{
+color:#fff;
+text-align: center;
+}
+.links-profile .profile-btn
+{
+    text-align: left
+}
+.links-profile .profile-btn button
+{
+text-align: left;
+display: inline-block;
+}
+.links-profile .info-btn button
+{
+text-align:right;
+display: inline-block;
+}
+.bottom-data .top-text
+{
+text-align: center;
+}
+.bottom-data .top-text img
+{
+display: block;
+margin:auto;
+height:400px;
+}
+.bottom-data .top-text h3
+{
+font-size: 32px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.72;
+letter-spacing: normal;
+text-align: center;
+color: #000000;
+}
+.bottom-data .top-text p
+{
+font-size: 16px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 3.44;
+letter-spacing: normal;
+text-align: center;
+color: #6d6d6d;
+}
+.personal-info
+{
+margin-bottom:4%;
+margin-top:4%;
+}
+.personal-info .line
+{
+margin-top:1%;
+margin-bottom:3%;
+}
+.personal-info input,
+.personal-info select
+{
+border:none;
+border-radius:0px;
+height:40px;
+border-bottom:1px solid #08c;
+margin-bottom:8%;
+}
+.personal-info h4
+{
+font-size: 32px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.72;
+letter-spacing: normal;
+text-align: right;
+color: #000000;
+}
+.custom-btn
+{
+padding-right:4%;
+padding-left:4%;
+}
+.upload-btn-wrapper {
+position: relative;
+overflow: hidden;
+display: inline-block;
+cursor: pointer;
+margin-bottom:4%;
+}
+.upload-btn-wrapper .btn {
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.38;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+}
+
+.upload-btn-wrapper input[type=file] {
+font-size: 100px;
+position: absolute;
+left: 0;
+top: 0;
+opacity: 0;
+}
+.upload-btn-wrapper span
+{
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6d6d;
+    width:40%;
+}
+@media (max-width:768px)
+{
+    .personal-info-sec input,
+    .project-info-sec input
+    {
+        margin-bottom: 6%;
+    }
+    .personal-info-sec .line,
+    .project-info-sec .line
+    {
+        margin-bottom:8%;
+    }
+    .personal-info-sec h4,
+    .personal-info h4
+    {
+        font-size:24px;
+    }
+    .personal-info h3
+    {
+        font-size:20px;
+    }
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:#e8e8e8}.cls-2{fill:none;stroke:#bcbcbc;stroke-linecap:round;stroke-linejoin:round;stroke-width:3px}
+        </style>
+    </defs>
+    <g id="arrow-gray" transform="translate(-1501 -940)">
+        <rect id="Rectangle_394" width="50" height="50" class="cls-1" data-name="Rectangle 394" rx="12" transform="translate(1501 940)"/>
+        <path id="Path_1162" d="M7.776 0L0 7.776l7.776 7.776" class="cls-2" data-name="Path 1162" transform="translate(1522.5 957.5)"/>
+    </g>
+</svg>

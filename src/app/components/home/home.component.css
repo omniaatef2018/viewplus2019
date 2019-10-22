@@ -1,0 +1,555 @@
+.slider h2
+{
+font-size: 32px;
+font-weight: bold;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.45;
+letter-spacing: normal;
+text-align: right;
+color: #000000;
+padding-top:9%;
+}
+.lightSlider.lsGrab>*
+{
+    cursor: initial
+}
+.slider p
+{
+font-size: 16px;
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+line-height: 2.81;
+letter-spacing: normal;
+text-align: right;
+color: #6d6d6d;
+width:70%;
+}
+.slider img
+{
+max-height:500px;
+}
+.services .top-section
+{
+    background-image: url(../../../assets/images/service-bg.svg);
+    min-height:206px;
+    background-size:100% 100%;
+}
+/* start video */
+.video
+{
+    background-image: url(../../../assets/images/video-bg.svg);
+    background-size:100% 100%;
+}
+.video .right-img img
+{
+    width:100%;
+    height:100%;
+}
+button.video-btn,
+button.video-btn:active,
+button.video-btn:focus,
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle
+{
+    background-color: transparent;
+    border:none;
+    box-shadow:none;
+    margin-right: 3%;
+}
+button.video-btn2:hover img
+{
+    border-radius:50%;
+    transition: .5s box-shadow;
+    -o-transition: .5s box-shadow;
+    -moz-transition: .5s box-shadow;
+    -webkit-transition: .5s box-shadow;
+}
+button.video-btn2:hover img
+{
+    box-shadow: 0 16px 24px 2px rgb(209, 241, 255),
+     0 6px 30px 5px rgb(223, 245, 255),
+      0 8px 10px -7px rgb(255, 255, 255);
+      background-color:transparent;
+}
+.video .left-sec
+{
+    padding-right:2%;
+}
+.video .left-sec h2
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.48;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+    width:100%;
+}
+.video .left-sec p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.88;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6d6d;
+}
+.video .left-sec p i
+{
+    color:#009bdb
+}
+.video .left-sec  a
+{
+    padding-right:9%;
+    padding-left:9%
+}
+.lightSlider 
+{
+    min-height:241px;
+}
+.video-btn2 img
+{
+    animation:video-btn 1s linear 0s infinite alternate;
+    -webkit-animation:video-btn 1s linear 0s infinite alternate;
+    -moz-animation:video-btn 1s linear 0s infinite alternate;
+    -o-animation:video-btn 1s linear 0s infinite alternate;
+    background-color:transparent;
+}
+@keyframes video-btn
+{
+    0%
+    {
+        box-shadow:none;
+        transform:scale(1);
+        border-radius:50%;
+        background-color:transparent;
+    }
+    100%
+    {
+        box-shadow: 0 16px 24px 2px rgb(209, 241, 255),
+         0 6px 30px 5px rgb(223, 245, 255),
+         0 8px 10px -7px rgb(255, 255, 255);
+         transform:scale(1.2);
+         border-radius:50%;
+         background-color:transparent;
+    }
+}
+@-webkit-keyframes video-btn
+{
+    0%
+    {
+        box-shadow:none;
+        transform:scale(1);
+        border-radius:50%;
+        background-color:transparent;
+    }
+    100%
+    {
+        box-shadow: 0 16px 24px 2px rgb(209, 241, 255),
+         0 6px 30px 5px rgb(223, 245, 255),
+         0 8px 10px -7px rgb(255, 255, 255);
+         transform:scale(1.2);
+         border-radius:50%;
+         background-color:transparent;
+    }
+}
+@-o-keyframes video-btn
+{
+    0%
+    {
+        box-shadow:none;
+        transform:scale(1);
+        border-radius:50%;
+        background-color:transparent;
+    }
+    100%
+    {
+        box-shadow: 0 16px 24px 2px rgb(209, 241, 255),
+         0 6px 30px 5px rgb(223, 245, 255),
+         0 8px 10px -7px rgb(255, 255, 255);
+         transform:scale(1.2);
+         border-radius:50%;
+         background-color:transparent;
+    }
+}
+@-moz-keyframes video-btn
+{
+    0%
+    {
+        box-shadow:none;
+        transform:scale(1);
+        border-radius:50%;
+        background-color:transparent;
+    }
+    100%
+    {
+        box-shadow: 0 16px 24px 2px rgb(209, 241, 255),
+         0 6px 30px 5px rgb(223, 245, 255),
+         0 8px 10px -7px rgb(255, 255, 255);
+         transform:scale(1.2);
+         border-radius:50%;
+         background-color:transparent;
+    }
+}
+/* end video */
+/* start our client */
+.our-client
+{
+    text-align: center;
+    min-height: 370px;
+}
+.our-client .container-fluid
+{
+    min-height: 370px;
+}
+.our-client .line-image
+{
+    display: block;
+    margin:auto;
+}
+/* end our client */
+/* start partners */
+.partners
+{
+    text-align: center;
+}
+.partners img
+{
+    display: block;
+    margin:auto;
+}
+/* end partners */
+/* start ready */
+.ready 
+{
+    min-height:400px;
+    background-image: url(../../../assets/images/ready.svg);
+    background-size:cover;
+    text-align: center;
+    display: block;
+}
+.ready h3
+{
+    padding-top:44px;
+    padding-bottom:2%;
+}
+.ready a
+{
+    padding-right:6%;
+    padding-left:6%;
+    line-height: 25px;
+}
+.ready-black 
+{
+    min-height:400px;
+    background-image: url(../../../assets/images/ready-black.svg);
+    background-size:cover;
+    text-align: center;
+}
+.ready-black h3
+{
+    padding-top:44px;
+    padding-bottom:2%;
+    color:#fff;
+}
+.ready-black a
+{
+    padding-right:6%;
+    padding-left:6%;
+    line-height: 25px;
+}
+.our-client #ourclient span
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.29;
+    letter-spacing: normal;
+    text-align: center;
+    color: #0063b0;
+    display: block;
+    padding-top:1%;
+}
+.opnions
+{
+    padding-top:1.5%;
+}
+.our-client
+{
+    background-image: url(../../../assets/images/opinions-bg.svg);
+    background-size:100% 100%;
+    line-height:200px;
+}
+.our-client h3,
+.partners h3
+{
+    font-weight:bold;
+    font-size: 32px;
+}
+.our-client p
+{
+    text-align: center;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.29;
+    letter-spacing: normal;
+    color: #6d6d6d;
+    width:70%;
+    display: block;
+    margin:auto;
+    padding-top: 3%;
+}
+.modal .image-sec
+{
+    padding-right:0%;
+    padding-left:0%;
+}
+.modal p
+{
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.31;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6d6d;
+}
+.modal .modal-body
+{
+    border-radius:25px;
+}
+.line
+{
+    display: block;
+    margin:auto;
+    margin-bottom:3%;
+}
+.modal h3
+{
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.modal p,
+.modal .right-image
+{
+    padding-top:4%;
+}
+.modal .img-separate
+{
+    position: relative;
+}
+.modal .image-sec:hover .overlay,
+.modal .image-sec:hover .details-btn,
+.modal .image-sec:hover .visit-btn
+{
+        opacity:1;
+}
+.modal .image-sec img
+{
+    height:555px;
+    width:100%;
+    position: relative;
+}
+.overlay
+{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0%;
+    right:0%;
+    background-color:rgba(0,0,0,0.7);
+    z-index:9999;
+    opacity: 0;
+    transition: 0.5s opacity linear;
+    -o-transition: 0.5s opacity linear;
+    -moz-transition: 0.5s opacity linear;
+    -webkit-transition: 0.5s opacity linear;
+}
+.modal .image-sec .details-btn
+{
+    position: absolute;
+    top:40%;
+    right:40%;
+    border-radius: 12px;
+    box-shadow: 7px 7px 6px 0 rgba(0, 155, 219, 0.12);
+    background-color: #bcbcbc;
+    color: #fff;
+    width: 220px;
+    z-index:99999;
+    opacity: 0;
+    transition: 0.5s opacity linear;
+    -o-transition: 0.5s opacity linear;
+    -moz-transition: 0.5s opacity linear;
+    -webkit-transition: 0.5s opacity linear;
+    text-align: center
+}
+.modal .image-sec .details-btn:hover
+{
+    opacity:0.85
+}
+.modal .image-sec .visit-btn
+{
+    position: absolute;
+    top:50%;
+    right:40%;
+    border-radius: 12px;
+    box-shadow: 7px 7px 6px 0 rgba(0, 155, 219, 0.12);
+    background-color: #bcbcbc;
+    color: #6d6d6d;
+    width: 220px;
+    z-index:99999;
+    opacity: 0;
+    transition: 0.5s opacity linear;
+    -o-transition: 0.5s opacity linear;
+    -moz-transition: 0.5s opacity linear;
+    -webkit-transition: 0.5s opacity linear;
+}
+.modal .image-sec .visit-btn:hover
+{
+    color:#000
+}
+.modal .right-image img
+{
+    width:114px;
+    height:117px;
+}
+.partners button
+{
+    background-color:transparent;
+    border:none;
+    padding-right: 0%;
+    margin-right: 0%;
+    transition: 0.5s box-shadow;
+    -o-transition: 0.5s box-shadow;
+    -moz-transition: 0.5s box-shadow;
+    -webkit-transition: 0.5s box-shadow;
+    margin-top:5%;
+}
+.partners button:hover img
+{
+    transform: scale(1.2);
+}
+.partners button img
+{
+    transition: 1s ease-in-out transform;
+    -webkit-transition: 1s ease-in-out transform;
+    -o-transition: 1s ease-in-out transform;
+    -moz-transition: 1s ease-in-out transform;
+}
+.partners button img
+{
+    width:100%;
+    margin-top:3%;
+    margin-bottom:6%;
+}
+.partners button:active,
+.partners button img:focus
+{
+    border:none;
+    box-shadow:none;
+    outline: none;
+}
+/* end ready */
+@media (min-width:576px) and (max-width:992px)
+{
+    .modal .right-image img
+    {
+        width:100%;
+    }
+}
+@media (max-width:576px) 
+{
+    .modal .right-image img
+    {
+        display: block;
+        margin:auto;
+    }
+}
+@media (max-width:992px)
+{
+    .slider p,
+    .our-client p
+    {
+        width:100%;
+        font-size:16px;
+    }
+    .our-client p
+    {
+        padding-top:6%;
+    }
+    .video .right-img img
+    {
+        width:70%;
+    }
+    .modal .image-sec .visit-btn,
+    .modal .image-sec .details-btn
+    {
+        right:25%;
+    }
+    .video .left-sec,
+    .video .left-sec p,
+    .video .left-sec h2
+    {
+        text-align: center;
+    }
+}
+@media (max-width:1200px)
+{
+    .our-client
+    {
+        background-image:none;
+    }
+}
+@media (max-width:767px)
+{
+    section.slider
+    {
+        padding-top:0%;
+    }
+    .slider img
+    {
+        max-height:350px;
+    }
+    .services .top-section,
+    .video,
+    .our-client
+    {
+        background-image:none;
+    }
+    .video .left-sec h2,
+    .our-client h2
+    {
+        font-size:24px;
+    }
+    .ready
+    {
+        min-height: 267px;
+    }
+    .ready h3
+    {
+        font-size: 16px;
+    }
+
+}
+@media (min-width:992px) and (max-width:1199px)
+{
+    .our-client p
+    {
+        width:80%;
+    }
+}

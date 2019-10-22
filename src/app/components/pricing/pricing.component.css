@@ -1,0 +1,431 @@
+.pricing
+{
+    text-align: center;
+}
+.custom-button
+{
+    color:#fff;
+    height: 41px;
+    border-radius: 12px;
+    font-size: 14px;
+    background: rgba(0,153,219,1);
+    background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+    background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+}
+.card
+{
+    display: block;
+    margin:auto;
+    border:none;
+    border-radius:35px
+}
+.pricing .cards
+{
+    margin-bottom:4%;
+}
+.dark-services-image
+{
+    display: none
+}
+.top-heading
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+    padding-top:10%;
+}
+.top-par
+{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    color: #000000;
+}
+.top-par a
+{
+    font-size: 18px;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: left;
+    color: #009bdb;
+    text-decoration: none;
+    color: #006fb9;
+    font-weight: bold;
+}
+.top-par a:hover
+{
+    opacity: 0.8;
+}
+.pricing-btn button
+{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+}
+.active-btn
+{
+    background: rgba(0,153,219,1);
+    background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+    background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+    color:#fff;
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+    border-top-left-radius:0px;
+    border-bottom-left-radius:0px;
+    height:40px;
+    z-index:99999
+}
+.package-btn button
+{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    background:#e8e8e8;
+}
+.pricing-btn button,
+.package-btn button
+{
+    height:40px;
+    width:160px;
+    transition: 1s background ease-in-out;
+    -webkit-transition: 1s background ease-in-out;
+    -moz-transition: 1s background ease-in-out;
+    -o-transition: 1s background ease-in-out;
+}
+.animationClass
+{
+    animation: buttonClick 0.8s forwards;
+}
+@keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+@-webkit-keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+@-moz-keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+@-o-keyframes buttonClick
+{
+    0%
+    {
+        background-color: #e8e8e8;
+    }
+    100%
+    {
+        background: rgba(0,153,219,1);
+        background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+        background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+        color:#fff
+    }
+}
+.pricing-btn
+{
+    text-align: left;
+    padding-left: 0%;
+}
+.package-btn
+{
+    text-align: right;
+    padding-right: 0%;
+}
+.package-btn button
+{
+    background-color: #e8e8e8;
+    transition: 1s box-shadow ease-in-out;
+    -moz-transition: 1s box-shadow ease-in-out;
+    -o-transition: 1s box-shadow ease-in-out;
+    -webkit-transition: 1s box-shadow ease-in-out;
+}
+.package-btn button:hover
+{
+     box-shadow: 0 0px 11px 0 rgb(228, 230, 230), 0 6px 20px 0 rgba(71, 61, 61, 0.188);
+}
+.cards .single-card
+{
+    border-radius: 30px;
+    box-shadow: 0 0 12px 0 rgba(0, 155, 219, 0.12);
+    background-color: #ffffff;
+    padding:7% 6%;
+    margin-top:4%;
+    transition: 0.8s transform ease-in-out;
+    -moz-transition: 0.8s transform ease-in-out;
+    -o-transition: 0.8s transform ease-in-out;
+    -webkit-transition: 0.8s transform ease-in-out;
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.cards .single-card:hover
+{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    cursor: pointer;
+}
+.line-image
+{
+    display: block;
+    margin:auto;
+}
+.pricing .cards,
+.package .cards
+{
+    animation-duration: 3s;
+}
+.pricing,
+.package
+{
+    padding-top: 30px;
+    
+}
+.cards .single-card h4
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.pricing .cards .single-card img
+{
+    width:160px;
+    height:130px;
+    margin-bottom:10%;
+    margin-top:10%;
+}
+.pricing .cards .single-card p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6d6d6d;
+}
+.pricing .cards .single-card p i
+{
+    color:#0091d5;
+    padding-left:2%;
+}
+/*  */
+.cards
+{
+    margin-bottom:4%;
+}
+.package
+{
+    text-align: center;
+}
+.package-btn button
+{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.pricing-btn button
+{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+    transition: 1s box-shadow ease-in-out;
+    -moz-transition: 1s box-shadow ease-in-out;
+    -o-transition: 1s box-shadow ease-in-out;
+    -webkit-transition: 1s box-shadow ease-in-out;
+}
+.pricing-btn button,
+.package-btn button
+{
+    height:40px;
+    width:160px;
+    transition: 1s box-shadow ease-in-out;
+    -moz-transition: 1s box-shadow ease-in-out;
+    -o-transition: 1s box-shadow ease-in-out;
+    -webkit-transition: 1s box-shadow ease-in-out;
+}
+.buttons
+{
+    display: block;
+    margin:auto;
+    margin-top: 4%;
+    margin-bottom: 3%;
+}
+.pricing-btn
+{
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding-left: 0%;
+    margin-left: 0%; 
+}
+.pricing-btn button
+{
+    padding-left: 0%;
+    margin-left: 0%; 
+}
+.package-btn button:focus,
+.pricing-btn button:focus
+{
+    box-shadow:none;
+}
+.package-btn
+{
+    text-align: right;
+    display: block;
+    margin:auto;
+    text-align: center;
+    padding-right: 0%;
+    margin-right: 0%;
+}
+.pricing-btn button:hover
+{
+    box-shadow: 0 0px 11px 0 rgb(228, 230, 230), 0 6px 20px 0 rgba(71, 61, 61, 0.188);
+}
+.package .cards .single-card
+{
+    border-radius: 30px;
+    box-shadow: 0 0 12px 0 rgba(0, 155, 219, 0.12);
+    background-color: #ffffff;
+    padding:7% 6%;
+    margin-top:4%;
+}
+.package .cards .single-card h4
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.58;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000000;
+}
+.package .cards .single-card img
+{
+    width:160px;
+    height:130px;
+    margin-bottom:10%;
+    margin-top:10%;
+}
+.package .cards .single-card p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #6d6d6d;
+}
+.package .cards .single-card p i
+{
+    color:#0091d5;
+    padding-left:2%;
+}
+.package
+{
+    display: none;
+}
+@media (min-width:992px) and (max-width:1200px)
+{
+    .card
+    {
+        width: 17rem!important;
+        display: block;
+        margin:auto;
+    }
+}
+@media (min-width:767px) and (max-width:992px)
+{
+    .card
+    {
+        width: 15rem!important;
+        display: block;
+        margin:auto;
+    }
+}
+@media  (max-width:767px)
+{
+    .card
+    {
+        margin-bottom: 6%;
+    }
+}

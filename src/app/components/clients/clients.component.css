@@ -1,0 +1,70 @@
+.top-section
+{
+    background-image: url(../../../assets/images/partners-bg.svg);
+    background-size:100% 100%;
+    min-height:150px;
+}
+.top-section h3
+{
+    padding-top:6%;
+}
+.partners
+{
+    text-align: center;
+}
+.clients-btn a
+{
+    border-top-left-radius:12px;
+    border-bottom-left-radius:12px;
+    border-top-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.partners-btn a
+{
+    border-top-right-radius:12px;
+    border-bottom-right-radius:12px;
+}
+.partners-btn a,
+.clients-btn a
+{
+    margin-top:7%;
+    margin-bottom: 11%;
+    height:40px;
+    width:160px;
+}
+.partners-btn
+{
+    text-align: left;
+    padding-left: 0%;
+}
+.clients-btn
+{
+    text-align: right;
+    padding-right: 0%;
+}
+.partners-btn a
+{
+    background-color: #e8e8e8;
+    transition: 0.5s box-shadow linear;
+    -moz-transition: 0.5s box-shadow linear;
+    -o-transition: 0.5s box-shadow linear;
+    -webkit-transition: 0.5s box-shadow linear;
+}
+.partners-btn a:hover
+{
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(71, 61, 61, 0.188);
+}
+.bottom-partn .single-sec
+{
+    margin-top:3%;
+    transition: 0.5s box-shadow linear;
+    -moz-transition: 0.5s box-shadow linear;
+    -o-transition: 0.5s box-shadow linear;
+    -webkit-transition: 0.5s box-shadow linear;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.bottom-partn .single-sec:hover
+{
+    box-shadow: 0 3px 6px 0 rgba(0, 155, 219, 0.23);
+}

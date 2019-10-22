@@ -1,0 +1,204 @@
+.custom-button
+{
+    color:#fff;
+    height: 41px;
+    border-radius: 12px;
+    font-size: 14px;
+    background: rgba(0,153,219,1);
+    background: -moz-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,153,219,1)), color-stop(100%, rgba(0,100,176,1)));
+    background: -webkit-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -o-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: -ms-linear-gradient(left, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    background: linear-gradient(to right, rgba(0,153,219,1) 0%, rgba(0,100,176,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0099db', endColorstr='#0064b0', GradientType=1 );
+}
+.top-section:first-of-type
+{
+    background-image: url(../../../assets/images/advertise.svg);
+    background-size: 100% 100%;
+    min-height: 150px;
+}
+.top-section h3
+{
+    padding-top:3%;
+    font-weight: bold;
+}
+.partners
+{
+    text-align: center;
+}
+.bottom-partn .single-sec
+{
+    margin-top:3%;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.single-sec button,
+.single-sec button:active
+{
+    background-color:transparent;
+    border:none;
+    box-shadow:none;
+}
+.single-sec button:focus
+{
+    box-shadow:none;
+}
+.line
+{
+    display: block;
+    margin:auto;
+    margin-bottom:3%;
+}
+.partners
+{
+    text-align: center;
+}
+.bottom-partn .single-sec
+{
+    margin-top:3%;
+    transition: 0.5s box-shadow linear;
+    -moz-transition: 0.5s box-shadow linear;
+    -o-transition: 0.5s box-shadow linear;
+    -webkit-transition: 0.5s box-shadow linear;
+    padding-top:3%;
+    padding-bottom:3%;
+}
+.bottom-partn .single-sec:hover img:focus,
+.bottom-partn .single-sec:hover button:focus
+{
+    box-shadow:none;
+    border:none;
+    outline:none;
+}
+.bottom-partn .single-sec:hover img
+{
+    transform: scale(1.2);
+}
+.bottom-partn .single-sec img
+{
+    transition: 1s transform;
+    -webkit-transition: 1s transform;
+    -moz-transition: 1s transform;
+    -o-transition: 1s transform;
+}
+.services .top-section
+{
+    background-image: url(../../../assets/images/service-bg.svg);
+    min-height: 206px;
+    background-size: 100% 100%;
+}
+.web-service 
+{
+    padding-top:5%;
+}
+.web-service  h3
+{
+    font-size: 32px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: right;
+    color: #000000;
+}
+.web-service .right-sec p
+{
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    text-align: right;
+    color: #6d6d6d;
+}
+.web-service h4
+{
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.72;
+    letter-spacing: normal;
+    text-align: right;
+    color: #0063b0;
+}
+.web-service i
+{
+    color: #009bdb;
+}
+.web-service .left-sec img
+{
+    width:100%;
+    margin-bottom:4%;
+    height:500px;
+}
+.form-group
+{
+    margin-bottom:4%;
+    margin-top:3%;
+}
+label
+{
+    opacity:0;
+    transition: 0.5s opacity ease-in-out;
+    -webkit-transition: 0.5s opacity ease-in-out;
+    color:#0068b3;
+    text-align: right;
+    display: block
+}
+form
+{
+    padding-top:4%;
+    padding-bottom:4%;
+    width:45%;
+    display: block;
+    margin:auto;
+}
+.form-section
+{
+    background-color:#fbfbfb;
+    margin-top:3%;
+}
+form input,
+form textarea
+{
+    border:none;
+    border-bottom: 1px solid #0071ba;
+    border-radius:0px;
+    background-color:transparent
+}
+form textarea
+{
+    width:100%;
+}
+.first-input
+{
+    margin-top:0;
+}
+.custom-btn
+{
+    padding-right: 10%;
+    padding-left: 10%;
+    margin-top:4%;
+}
+input:focus,
+textarea:focus
+{
+    box-shadow:none;
+    outline-color: transparent;
+}
+form h3
+{
+    font-weight:bold;
+}
+@media (max-width:767px)
+{
+    form
+    {
+        width:95%;
+    }
+}

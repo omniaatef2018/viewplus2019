@@ -1,0 +1,59 @@
+.top-bg
+{
+    background-image: url(../../../assets/images/gallery.svg);
+    background-size:100% 100%;
+    min-height:150px;
+    text-align: center;
+}
+.top-bg h3
+{
+    padding-top:4%;
+}
+select
+{
+    border-radius:14px;
+}
+.left-select select
+{
+    float: left;
+}
+.galleryItem img
+{
+    height:285px;
+    width: 100%;
+    margin-bottom:8%;
+    border-radius: 15px;
+}
+.card
+{
+    border:none;
+}
+.gallery
+{
+    margin-top:4%;
+    margin-bottom:4%;
+}
+.filter .right-select
+{
+    float: right;
+    position: relative;
+}
+.filter .left-select
+{
+    float: left;
+}
+.left-select
+{
+    float: left;
+}
+.img-container
+{
+    padding-top:120px;
+}
+@media (max-width:992px)
+{
+    .top-bg
+    {
+        background-image: none;
+    }
+}

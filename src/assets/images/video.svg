@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50">
+    <defs>
+        <style>
+            .cls-1{fill:none}.cls-2{clip-path:url(#clip-path)}.cls-3{fill:rgba(0,155,219,.32)}.cls-4{fill:rgba(0,155,219,.94)}.cls-5{fill:#fff}
+        </style>
+        <clipPath id="clip-path">
+            <path d="M0 0h50v50H0z" class="cls-1"/>
+        </clipPath>
+    </defs>
+    <g id="Component_6_1" class="cls-2" data-name="Component 6 – 1">
+        <circle id="Ellipse_10" cx="25" cy="25" r="25" class="cls-3" data-name="Ellipse 10"/>
+        <circle id="Ellipse_11" cx="19.444" cy="19.444" r="19.444" class="cls-4" data-name="Ellipse 11" transform="translate(5.556 5.556)"/>
+        <path id="Polygon_1" d="M8.056 0l8.056 13.333H0z" class="cls-5" data-name="Polygon 1" transform="rotate(90 7.778 24.722)"/>
+    </g>
+</svg>

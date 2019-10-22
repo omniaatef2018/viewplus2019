@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="693" viewBox="0 0 1920 693">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_463" data-name="Rectangle 463" width="368" height="693" transform="translate(0 2021)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="video-bg" transform="translate(0 -2021)">
+    <rect id="Rectangle_625" data-name="Rectangle 625" width="1920" height="692" transform="translate(0 2021)" fill="none"/>
+    <g id="رهيثخ" clip-path="url(#clip-path)">
+      <g id="Group_2513" data-name="Group 2513" transform="translate(-1152.257 -71)" opacity="0.09">
+        <circle id="Ellipse_12" data-name="Ellipse 12" cx="346.366" cy="346.366" r="346.366" transform="translate(801 2092)" fill="rgba(0,155,219,0.32)"/>
+        <circle id="Ellipse_13" data-name="Ellipse 13" cx="269.396" cy="269.396" r="269.396" transform="translate(877.97 2168.97)" fill="rgba(0,155,219,0.94)"/>
+        <path id="Polygon_2" data-name="Polygon 2" d="M111.607,0,223.213,184.728H0Z" transform="translate(1251.275 2326.759) rotate(90)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

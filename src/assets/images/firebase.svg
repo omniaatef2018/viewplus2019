@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_426" data-name="Rectangle 426" width="24" height="24" transform="translate(-1121 2685)" fill="#bcbcbc"/>
+    </clipPath>
+  </defs>
+  <g id="firebase" transform="translate(1121 -2685)" clip-path="url(#clip-path)">
+    <g id="Built_with_Firebase_Logo_Knockout" transform="translate(-1123.528 2690.422)">
+      <g id="Group_3484" data-name="Group 3484" transform="translate(3 -9.216)">
+        <path id="icon_1_" d="M3.114,19.462l2.373-15.2A.547.547,0,0,1,6.51,4.082L9.06,8.854Zm16.867,3.7-2.263-14a.549.549,0,0,0-.927-.3L2.528,23.158l7.895,4.432a1.658,1.658,0,0,0,1.6,0ZM13.573,10.94,11.746,7.463a.543.543,0,0,0-.968,0L2.746,21.78Z" transform="translate(0 0)" fill="#bcbcbc"/>
+      </g>
+    </g>
+  </g>
+</svg>
