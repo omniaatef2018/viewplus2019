@@ -20,24 +20,24 @@ import { RegisterComponent } from './components/register/register.component';
 import { ProjectdetailsComponent } from './components/projectdetails/projectdetails.component';
 
 const routes: Routes = [
-    {path:"" , component: HomeComponent },
-    {path:"aboutus" , component: AboutusComponent },
-    {path:"contact" , component: ContactComponent },
-    {path:"gallery" , component: GalleryComponent },
-    {path:"login" , component: LoginComponent },
-    {path:"partners" , component: PartnersComponent },
-    {path:"pricing" , component: PricingComponent },
-    {path:"projects" , component: ProjectsComponent },
-    {path:"register" , component: RegisterComponent },
-    {path:"services" , component: ServicesComponent },
-    {path:"package" , component:PackageComponent },
-    {path:"clients" , component: ClientsComponent},
-    {path:"profile" , component: ProfileComponent},
-    {path:"project-info" , component: ProjectinfoComponent},
-    {path:"project-details" , component: ProjectdetailsComponent},
-    {path:"forgetpassword" , component: ForgetpasswordComponent},
-    {path:"advertise" , component: AdsComponent},
-    {path:"**" , component:NotfoundComponent}
+    {path: '' , component: HomeComponent },
+    {path: 'aboutus' , component: AboutusComponent },
+    {path: 'contact' , component: ContactComponent },
+    {path: 'gallery' , component: GalleryComponent },
+    {path: 'login' , component: LoginComponent },
+    {path: 'partners' , component: PartnersComponent },
+    {path: 'pricing' , component: PricingComponent },
+    {path: 'projects' , component: ProjectsComponent },
+    {path: 'register' , component: RegisterComponent },
+    {path: 'services' , component: ServicesComponent },
+    {path: 'package' , component: PackageComponent },
+    {path: 'clients' , component: ClientsComponent},
+    {path: 'profile' , component: ProfileComponent},
+    {path: 'project-info' , component: ProjectinfoComponent},
+    {path: 'project-details' , component: ProjectdetailsComponent},
+    {path: 'forgetpassword' , component: ForgetpasswordComponent},
+    {path: 'advertise' , component: AdsComponent},
+    {path: '**' , component: NotfoundComponent}
 ];
 
 @NgModule({

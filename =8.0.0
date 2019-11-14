@@ -1,0 +1,4 @@
++ @angular-devkit/schematics@8.3.12
+updated 1 package and audited 42668 packages in 11.278s
+found 601 high severity vulnerabilities
+  run `npm audit fix` to fix them, or `npm audit` for details

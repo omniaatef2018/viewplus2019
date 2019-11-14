@@ -8,18 +8,6 @@ import { AuthService } from './../../services/auth.service';
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.css']
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent {
 
-  loginDate = {}
-  constructor(private httpClient :HttpClient, private router: Router, private _auth:AuthService) { }
-  ngOnInit() {
-  }
-  loginUser () {
-    this._auth.loginUser(this.loginDate)
-    .subscribe(
-      res =>this.router.navigate(['']),
-      err => console.log(err)
-     )
-    
-}
 }

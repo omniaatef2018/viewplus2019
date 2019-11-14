@@ -28,7 +28,7 @@ import { FooterComponent } from './components/footer/footer.component';
 import { ForgetpasswordComponent } from './components/forgetpassword/forgetpassword.component';
 import { AdsComponent } from './components/ads/ads.component';
 import { AuthService } from './services/auth.service';
-import { Directive,HostListener,HostBinding } from '@angular/core';
+import { Directive, HostListener, HostBinding } from '@angular/core';
 
 @NgModule({
   declarations: [
@@ -64,7 +64,7 @@ import { Directive,HostListener,HostBinding } from '@angular/core';
     ToastrModule.forRoot({
       timeOut: 5000,
       positionClass: 'toast-top-right',
-      preventDuplicates:false
+      preventDuplicates: false
     })
   ],
   providers: [AuthService],
